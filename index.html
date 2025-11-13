@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gal Regev — Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-gray-900 text-gray-100 antialiased">
+  <nav class="fixed w-full z-20 bg-black/40 backdrop-blur-sm">
+    <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="#" class="text-lg font-semibold">Gal Regev</a>
+      <div class="space-x-4 text-sm">
+        <a href="#about" class="hover:underline">About</a>
+        <a href="#projects" class="hover:underline">Projects</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <header id="hero" class="min-h-screen flex items-center">
+    <div class="max-w-4xl mx-auto px-6 py-24">
+      <p class="text-teal-400">Hi, my name is</p>
+      <h1 class="text-5xl sm:text-6xl font-bold mt-2">Gal Regev.</h1>
+      <h2 class="text-2xl sm:text-3xl text-gray-300 mt-4">I build accessible and performant web experiences.</h2>
+      <p class="mt-6 max-w-2xl text-gray-400">I'm a front-end developer focusing on minimal, usable interfaces. I enjoy making things that feel delightful and fast.</p>
+      <div class="mt-8">
+        <a href="#projects" class="inline-block bg-teal-500 text-black font-medium px-5 py-3 rounded-md hover:bg-teal-400">View projects</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-6 space-y-24 pb-24">
+    <section id="about" class="pt-6">
+      <h3 class="text-2xl font-semibold">About</h3>
+      <div class="mt-4 text-gray-300">I'm a developer who loves building small, fast, and accessible web projects. I care about clean design, performance, and pragmatic engineering.</div>
+    </section>
+
+    <section id="projects" class="">
+      <h3 class="text-2xl font-semibold">Projects</h3>
+      <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <article class="bg-gray-800 p-6 rounded-lg border border-gray-700">
+          <h4 class="font-semibold">Project One</h4>
+          <p class="mt-2 text-gray-400">A short description of project one. <a href="#" class="text-teal-400 hover:underline">Live →</a></p>
+        </article>
+
+        <article class="bg-gray-800 p-6 rounded-lg border border-gray-700">
+          <h4 class="font-semibold">Project Two</h4>
+          <p class="mt-2 text-gray-400">A short description of project two. <a href="#" class="text-teal-400 hover:underline">Repo →</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="">
+      <h3 class="text-2xl font-semibold">Contact</h3>
+      <p class="mt-4 text-gray-300">I'm available for freelance or full-time roles. <a href="mailto:you@example.com" class="text-teal-400 hover:underline">you@example.com</a></p>
+    </section>
+  </main>
+
+  <footer class="max-w-4xl mx-auto px-6 pb-12 text-gray-500 text-sm">
+    <div class="py-6">Built with Tailwind CSS</div>
+  </footer>
+</body>
+</html>
